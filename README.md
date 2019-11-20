@@ -74,10 +74,11 @@ then put cifar10/ in the data directory.
 ## NoisyLabel
 
 **1.NLNL: Negative Learning for Noisy Label**
+
 &nbsp;&nbsp;&nbsp;&nbsp;if you want to learn some information,you can watch the [original paper](https://arxiv.org/pdf/1908.07387.pdf),also you can see the interpretation of papers and implementation details by me.
 the result is:
 ![test result](https://github.com/JaryHuang/Label/blob/master/result/test.png)
-#####Training
+#### Training
 - In the Label fold:
 
 ```Shell
@@ -95,7 +96,7 @@ python main.py train
   * if you use the SelNLPL_train.sh, you can set the parameters in this file.(see tools/SelNLPL_train.sh)
   * if you use python main.py train, you can set the parameter in config.py set the default parameters.(see 'config.py`)
 
-##### Test
+#### Test
 - To test a trained network:
 
 ```Shell
@@ -111,8 +112,8 @@ you should to change the load_model_path for yourself checkpoint (see tools/elNL
 
 ## Authors
 * [**JavierHuang**](https://github.com/JaryHuang)
-* **WeChat Official Account**
-![老黄陪你读Paper]()
+* **WeChat Official Account:**
+![老黄陪你读Paper](https://github.com/JaryHuang/Label/blob/master/result/WeChat%20Official%20Account.jpg)
 
 ## References
 - [NLNL: Negative Learning for Noisy Label](https://arxiv.org/pdf/1908.07387.pdf)
