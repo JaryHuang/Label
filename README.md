@@ -85,16 +85,10 @@ the result is:
 bash tools/SelNLPL_train.sh
 ```
 
-or
-
-```Shell
-python main.py train
-```
-
 - Note:
   * For training, default NVIDIA GPU.
   * if you use the SelNLPL_train.sh, you can set the parameters in this file.(see tools/SelNLPL_train.sh)
-  * if you use python main.py train, you can set the parameter in config.py set the default parameters.(see 'config.py`)
+
 
 #### Test
 - To test a trained network:
@@ -113,6 +107,7 @@ you should to change the load_model_path for yourself checkpoint (see tools/elNL
 ## Authors
 * [**JavierHuang**](https://github.com/JaryHuang)
 * **WeChat Official Account:**
+
 ![老黄陪你读Paper](https://github.com/JaryHuang/Label/blob/master/result/WeChat%20Official%20Account.jpg)
 
 ## References
